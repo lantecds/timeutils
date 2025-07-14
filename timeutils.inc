@@ -7,15 +7,17 @@
     #define SERVER_TIME_ZONE (0)
 #endif
 
-#define SECONDS_PER_MINUTE (60)
-#define SECONDS_PER_HOUR (3600)
-#define SECONDS_PER_DAY (86400)
-#define SECONDS_PER_WEEK (604800)
-#define SECONDS_PER_MONTH (2592000)
-#define SECONDS_PER_YEAR (31536000)
+static const {
+	SECONDS_PER_MINUTE = 60,
+	SECONDS_PER_HOUR = 3600,
+	SECONDS_PER_DAY = 86400,
+	SECONDS_PER_WEEK = 604800,
+	SECONDS_PER_MONTH = 2592000,
+	SECONDS_PER_YEAR = 31536000,
 
-#define EPOCH_YEAR (1970)
-#define MAX_YEAR (2100)
+	EPOCH_YEAR = 1970,
+	MAX_YEAR = 2100
+};
 
 /**
  * Converts a time difference into human-readable format.
